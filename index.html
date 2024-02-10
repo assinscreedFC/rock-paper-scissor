@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>rock paper scissor</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Rock Paper Scissors Game!</h1>
+      <h3>The winner is first to 5 points</h3>
+    </header>
+    <div class="flexbox">
+      <div class="droit">
+        <div class="bg">
+          <div class="user">
+            <img
+              src="./assets/img/user-solid-grey.svg"
+              alt=""
+              id="imageUser"
+              width="40px"
+            />
+          </div>
+          <div class="flexbox1">
+            <button id="ciseaux">
+              <img
+                src="./assets/img/hand-scissors-grey.svg"
+                alt=""
+                width="40px"
+              />
+            </button>
+            <button id="pierre">
+              <img src="./assets/img/hand-rock-grey.svg" alt="" width="40px" />
+            </button>
+            <button id="feuille">
+              <img src="./assets/img/hand-paper-grey.svg" alt="" width="40px" />
+            </button>
+          </div>
+        </div>
+        <div class="blob"></div>
+      </div>
+      <div class="left">
+        <div class="bg">
+          <div class="user">
+            <img
+              src="./assets/img/laptop-solid-grey.svg"
+              alt=""
+              id="imageUser"
+              width="60px"
+            />
+          </div>
+          <div class="flexbox1">
+            <button class="ciseaux">
+              <img
+                src="./assets/img/hand-scissors-grey.svg"
+                alt=""
+                width="40px"
+              />
+            </button>
+            <button class="pierre">
+              <img src="./assets/img/hand-rock-grey.svg" alt="" width="40px" />
+            </button>
+            <button class="feuille">
+              <img src="./assets/img/hand-paper-grey.svg" alt="" width="40px" />
+            </button>
+          </div>
+        </div>
+        <div class="blob"></div>
+      </div>
+    </div>
+    <div class="score">
+      <h3 id="bot">le score de lodinateurt est : 0</h3>
+      <h3 id="player">le score du joueur est : 0</h3>
+      <h2></h2>
+    </div>
+    <div id="fin"></div>
+    <script type="module" src="java.js"></script>
+  </body>
+</html>
