@@ -12,7 +12,9 @@ if(playerSelection=="rock"&& computerSelection=="feuille"){
 }
   
 function getComputerChoice(){
-    const result=Math.floor(Math.random() * (3 - 1 + 1) + 1);
+    let randomDecimal = Math.random();
+    let result = Math.floor(randomDecimal * 3) + 1;
+    console.log(result);
     if(result==1){
         return "feuille"
     }else if (result==2) {
