@@ -98,10 +98,9 @@ function jouer( ){
 let boutonsicau = document.getElementById("ciseaux");
 boutonsicau.addEventListener("click", function(event) {if(winner==0){
     const playerSelection = "sicau";
-    const computerSelection =getComputerChoice() ;h2.innerText=`${playerSelection}`;
+    const computerSelection =getComputerChoice() ;
     scoreparti(playRound(playerSelection, computerSelection));
-    console.log(playerSelection);
-    console.log(playRound(playerSelection, computerSelection));
+    
     
 } if(scoreplayer==5||scorebot==5){
     
@@ -116,8 +115,7 @@ boutonrock.addEventListener("click", function(event) {
     const playerSelection = "rock";
     const computerSelection =getComputerChoice() ;
     scoreparti(playRound(playerSelection, computerSelection));
-    console.log(playerSelection);
-    console.log(playRound(playerSelection, computerSelection));
+    
   } if(scoreplayer==5||scorebot==5) {
     
         jouer();winner++;
@@ -129,8 +127,7 @@ boutonfeuille.addEventListener("click", function(event) {if(winner==0){
     const playerSelection = "feuille";
     const computerSelection =getComputerChoice() ;
     scoreparti(playRound(playerSelection, computerSelection));
-    console.log(playerSelection);
-    console.log(playRound(playerSelection, computerSelection));
+    
 }
 if(scoreplayer==5||scorebot==5){
     
