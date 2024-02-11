@@ -91,7 +91,8 @@ function jouer( ){
             winner=0;
             h3player.textContent = "le Score du joeur est de : " + scoreplayer;
             h3bot.textContent = "le Score du lordinateur est de : " + scorebot;
-});
+
+        });
 }
 
 
@@ -106,7 +107,7 @@ boutonsicau.addEventListener("click", function(event) {if(winner==0){
     
         jouer();
         winner++;
-    }
+        }
     }
     );
 let boutonrock = document.getElementById("pierre");
