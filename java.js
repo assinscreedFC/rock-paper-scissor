@@ -34,20 +34,6 @@ var scoreplayer=0;
 
 
 
-// function Gangne() {
-//     if (scoreplayer==3){
-//         h3player.textContent = "le Score du joeur est de : " + scoreplayer;h3bot.textContent = "le Score du lordinateur est de : " + scorebot;
-//         alert("A GAGNER");
-//        h3player.textContent = "le Score du joeur est de : " + scoreplayer;h3bot.textContent = "le Score du lordinateur est de : " + scorebot;
-      
-//     }else if (scorebot==3){
-        
-//         alert("A GAGNER");
-//        h3bot.textContent = "le Score du lordinateur est de : " + scorebot;
-//         h3player.textContent = "le Score du joeur est de : " + scoreplayer;
-//     }
-    
-// }
 
 function scoreparti(nbr){
     
