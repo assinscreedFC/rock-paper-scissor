@@ -238,3 +238,13 @@ h2{
         box-shadow: 0 0 0 0 rgba(0, 0, 0, 0%);
     }
 }
+
+@media screen and (max-width: 900px) {
+  .flexbox {
+    width: fit-content;
+    
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+}

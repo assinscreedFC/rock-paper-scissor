@@ -52,7 +52,7 @@ function jouer( ){
     
     const newitem=document.createElement("button");
     const imgElement = document.createElement("img");
-     imgElement.style.width = "3%";
+     imgElement.style.width = "40px";
      newitem.innerText= 'PLAY AGAIN' ;
     if(scoreplayer<scorebot){
         imgElement.src= "./assets/Beaming Face with Smiling Eyes.png";
